@@ -1,4 +1,4 @@
-![build status](https://travis-ci.org/joan-serra/joan.io.svg?branch={{branch}})
+![build status](https://travis-ci.org/joan-serra/joan.io.svg?branch=master)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
