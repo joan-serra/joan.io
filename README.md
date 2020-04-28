@@ -1,4 +1,6 @@
-![build status](https://travis-ci.org/joan-serra/joan.io.svg?branch=master)
+| Service       | master        | develop |
+| ------------- |:-------------:| -------:|
+| CI status     | ![build status](https://travis-ci.org/joan-serra/joan.io.svg?branch=master)| ![build status](https://travis-ci.org/joan-serra/joan.io.svg?branch=develop) |
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
