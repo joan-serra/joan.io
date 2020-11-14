@@ -12,4 +12,3 @@ deploy:
   on:
     repo: joan-serra/joan.io
     branch: master
-  skip_cleanup: 'true'
