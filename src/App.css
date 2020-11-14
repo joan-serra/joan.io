@@ -5,13 +5,13 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-container {
+.container {
   position: relative;
   z-index: 4;
   overflow: hidden;
   margin: 1em;
 }
-stuffdiv {
+.stuffdiv {
   max-width: 40em;
   margin: 5em auto;
   margin: 20vh auto;
@@ -19,15 +19,14 @@ stuffdiv {
   color: #fff;
   transition: color .5s linear;
 }
-
-stufftext {
+.stufftext {
   margin: 0;
   padding: 0;
   border: none;
   text-decoration: none;
   color: inherit;
-  font-size: inherit;
-  font-weight: inherit;
+  font-size: 10em;
+  font-weight: bolder;
   font-family: Heebo,sans-serif;
   -webkit-font-smoothing: antialiased;
 }
