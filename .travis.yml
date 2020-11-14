@@ -1,3 +1,4 @@
 language: node_js
+cache: yarn
 import:
   - nodejs/ci-config-travis:all/gte-15.yml
