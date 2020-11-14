@@ -5,3 +5,29 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+container {
+  position: relative;
+  z-index: 4;
+  overflow: hidden;
+  margin: 1em;
+}
+stuffdiv {
+  max-width: 40em;
+  margin: 5em auto;
+  margin: 20vh auto;
+  padding: 0 2.5em;
+  color: #fff;
+  transition: color .5s linear;
+}
+
+stufftext {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: Heebo,sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
