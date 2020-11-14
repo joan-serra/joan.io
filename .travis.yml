@@ -3,6 +3,8 @@ cache: yarn
 node_js:
   - 15
 deploy:
+  deploy.skip_cleanup: true
+  local_dir: build
   provider: s3
   access_key_id: AKIARISMQWGMWG3ZCSF7
   secret_access_key:
