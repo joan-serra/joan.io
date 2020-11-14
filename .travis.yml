@@ -1,4 +1,15 @@
 language: node_js
 cache: yarn
 import:
-  - nodejs/ci-config-travis:all/gte-15.yml
+- nodejs/ci-config-travis:all/gte-15.yml
+deploy:
+  provider: s3
+  access_key_id: AKIARISMQWGMWG3ZCSF7
+  secret_access_key:
+    secure: LrBEW5znp/eC+uAAjYK8vyHhPydtliGFFPUdup82MMrlRowzvKsxSQprbRNgolhb9EqHgp3BAUiwtdfDMKDsOt0Oe9XTl/yAm3HCt1u4KPgN4cFlaiTLELwPhajD8zsaWfpnbviKjbOEp0uKrmdzdowxqbDpwh/tW++BWf3MC4Ar4nINVTNZ/KUzLOo96/4DBSBxBlCf2WQeElcIS8bqRwHTKJd6tfGc4G1vUzENIyIvbsiz0fQveTnfYoHUvdRcEdqL88VMcptIS/IeX/DB9Ipj392CRsAMDJfR2OLGvFKJO9w7y67RanhZw1cGlrkhbppSP9/PGZ5Pi5X11LZmLurrhbnbh4e4F/V0P2HUv2e73P3mpdzvibMSPCvaHGWb2y2j5t9bk4BnjJndFjhbdV+/B/rfswyk6OAF5zfQxpaSKgFGIHaZLYunZj8KhLyRJqqbblX7cPazvgioP7OxoQTE5gg2pWG2XCk65nFbdlGi/Q0ynTQJP0EY7cxKEhJSVpfEDe1WKHym1kN+zKdiR/8694TV6CMtJMsA8O6/Pjkp0Z7Q9qHoPW+mYbtK4Z5RJe15aZ4Ht5yFaeaDpLz8jOGKbVf46KkiyKSPZZbazlthoUwhAS37EiolzZrNiafrPr2QfQvC5176XaNvUlaW8KiQRASj3pzQdQL13l0zuRU=
+  bucket: joan.io
+  acl: ''
+  on:
+    repo: joan-serra/joan.io
+    branch: develop
+  skip_cleanup: 'true'
