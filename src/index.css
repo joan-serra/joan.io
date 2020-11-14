@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+stuff {
+  font-size: .5em;
+  max-width: 40em;
+  margin: 20vh auto;
+  padding: 0 2.5em;
+  color: #05efe2;
+  border: none;
+  text-decoration: none;
+  font-family: Heebo,sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
