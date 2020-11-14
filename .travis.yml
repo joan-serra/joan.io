@@ -11,5 +11,5 @@ deploy:
   acl: ''
   on:
     repo: joan-serra/joan.io
-    branch: develop
+    branch: master
   skip_cleanup: 'true'
