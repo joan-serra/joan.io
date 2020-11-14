@@ -1,0 +1,15 @@
+{
+  "short_name": "joan.io",
+  "name": "joan.io",
+  "icons": [
+    {
+      "src": "big.gif",
+      "type": "image/gif",
+      "sizes": "557x294"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#000000"
+}
