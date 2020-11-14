@@ -1,7 +1,7 @@
 language: node_js
 cache: yarn
-import:
-- nodejs/ci-config-travis:all/gte-15.yml
+node_js:
+  - 15
 deploy:
   provider: s3
   access_key_id: AKIARISMQWGMWG3ZCSF7
