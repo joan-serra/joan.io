@@ -1,5 +1,6 @@
 import React from 'react';
 import './Page.css';
+import { FaLinkedIn, FaTwitter, FaTwitch, FaGitHub, FaInstagram } from "react-icons/fa";
 
 function App() {
   return (
@@ -10,10 +11,11 @@ function App() {
           <p class="stufftextsmall">I am Joan Serra, and this is my sort of website. I am a human being who works in cloud stuff and enjoys many things. If you're curious, why not check any of the following...</p> 
         </div>
         <div class="stuffdiv">
-          <a class="stufflink" href="https://twitter.com/noopdles" title="Drama and general unhingement. Please don't judge me.">Twitter</a>
-          <a class="stufflink" href="https://instagram.com/noopdles" title="Sometimes I may take a photo of something interesting.">Instagram</a>
-          <a class="stufflink" href="https://linkedin.com/in/joanserramolas" title="seriouscat.jpg">LinkedIn</a>
-          <a class="stufflink" href="https://github.com/joan-serra" title="Code, or attempts at such.">GitHub</a>
+          <a class="stufflink" href="https://twitter.com/noopdles" title="Drama and general unhingement. Please don't judge me."><FaTwitter />Twitter</a>
+          <a class="stufflink" href="https://twitch.tv/cybernoodles" title="I play videogames. Badly"><FaTwitch />Twitch</a>
+          <a class="stufflink" href="https://instagram.com/noopdles" title="Sometimes I may take a photo of something interesting."><FaInstagram />Instagram</a>
+          <a class="stufflink" href="https://linkedin.com/in/joanserramolas" title="seriouscat.jpg"><FaLinkedIn />LinkedIn</a>
+          <a class="stufflink" href="https://github.com/joan-serra" title="Code, or attempts at such."><FaGitHub />GitHub</a>
         </div>
       </div>
     </div>
