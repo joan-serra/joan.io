@@ -7,7 +7,7 @@ function App() {
       <div class="subcontainer">
         <div class="stuffdiv">
           <p class="stufftext">Hello, stranger!</p>
-          <p class="stufftextsmall">I am Joan, and this is my sort of website. I am a human being who works in cloud stuff and enjoys many things. If you're curious, why not check any of the following...</p> 
+          <p class="stufftextsmall">I am Joan Serra, and this is my sort of website. I am a human being who works in cloud stuff and enjoys many things. If you're curious, why not check any of the following...</p> 
         </div>
         <div class="stuffdiv">
           <a class="stufflink" href="https://twitter.com/noopdles" title="Drama and general unhingement. Please don't judge me.">Twitter</a>
