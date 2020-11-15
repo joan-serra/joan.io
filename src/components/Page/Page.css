@@ -40,13 +40,14 @@ body {
   font-family: Heebo,sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+/*
 .stufflink:after {
   content: "\0020";
   background: rgb(185, 68, 214);
   height: 1px;
   width: 1em;
   display: block;
-}
+} */
 .stuffdiv {
   max-width: 40em;
   margin: 5em auto;
