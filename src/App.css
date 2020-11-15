@@ -20,6 +20,7 @@ html {
   transition: color .5s linear;
 }
 .stufftext {
+  display: none;
   margin: 0;
   padding: 0;
   border: none;
