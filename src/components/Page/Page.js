@@ -1,6 +1,6 @@
 import React from 'react';
 import './Page.css';
-import { FaLinkedIn, FaTwitter, FaTwitch, FaGitHub, FaInstagram } from "react-icons/fa";
+import { FaLinkedIn, FaTwitter, FaTwitch, FaGithub, FaInstagram } from "react-icons/fa";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <a class="stufflink" href="https://twitch.tv/cybernoodles" title="I play videogames. Badly"><FaTwitch />Twitch</a>
           <a class="stufflink" href="https://instagram.com/noopdles" title="Sometimes I may take a photo of something interesting."><FaInstagram />Instagram</a>
           <a class="stufflink" href="https://linkedin.com/in/joanserramolas" title="seriouscat.jpg"><FaLinkedIn />LinkedIn</a>
-          <a class="stufflink" href="https://github.com/joan-serra" title="Code, or attempts at such."><FaGitHub />GitHub</a>
+          <a class="stufflink" href="https://github.com/joan-serra" title="Code, or attempts at such."><FaGithub />GitHub</a>
         </div>
       </div>
     </div>
