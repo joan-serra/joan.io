@@ -11,6 +11,13 @@ html {
   overflow: hidden;
   margin: 1em;
 }
+.subcontainer {
+  background-color: rgba(0,0,0,0.75);
+  max-width: 50em;
+  margin: 5em auto;
+  margin: 20vh auto;
+  padding: 1em 1em;
+}
 .stuffdiv {
   max-width: 40em;
   margin: 5em auto;
