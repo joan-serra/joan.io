@@ -5,7 +5,11 @@ function App() {
   return (
     <div class="container">
       <div class="stuffdiv">
-        <span class="stufftext">Hello, stranger.</span>
+        <p  class="stufftext">Hello, stranger.</p>
+        <p class="stufftextsmall">I am a human being who works in cloud stuff and enjoys things.</p> 
+      </div>
+      <div class="stuffdiv">
+        
       </div>
     </div>
   );
