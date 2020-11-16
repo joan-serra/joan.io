@@ -1,7 +1,7 @@
 import React from 'react';
 import './Page.css';
 import Sparkles from './Sparkles';
-import { FaLinkedin, FaTwitter, FaTwitch, FaGithub, FaInstagram, FaSteam, FaBattleNet } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaTwitch, FaGithub, FaInstagram, FaSteam, FaBattleNet, FaDiscord } from "react-icons/fa";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
           <a class="stufflink" href="https://instagram.com/noopdles" title="Sometimes I may take a photo of something interesting."><FaInstagram /> Instagram</a>
           <a class="stufflink" href="https://linkedin.com/in/joanserramolas" title="seriouscat.jpg"><FaLinkedin /> LinkedIn</a>
           <a class="stufflink" href="https://github.com/joan-serra" title="Code, or attempts at such."><FaGithub /> GitHub</a>
+          <a class="stufflink" href="#" title="Discord n stuff."><FaDiscord /> Noodles#6855</a>
           <br />
           <p class="stufftextsmall">Fancy playing videogames with me?</p>
           <br />
