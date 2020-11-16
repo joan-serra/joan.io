@@ -4,7 +4,6 @@ node_js:
   - 15
 script:
   - yarn
-  - yarn test
   - yarn build
 deploy:
   skip_cleanup: true
