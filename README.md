@@ -1,6 +1,6 @@
 | Service       | master        |
 | ------------- |:-------------:|
-| CI status     | ![build status](https://travis-ci.org/joan-serra/joan.io.svg?branch=master)|
+| CI status     | ![build status](https://travis-ci.com/joan-serra/joan.io.svg?branch=master)|
 
 ## joan.io
 
