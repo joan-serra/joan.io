@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,700");
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,700");
 body {
-  background: linear-gradient(-45deg, #32104d, #530572, #540094, #260572);
+  background: linear-gradient(-45deg, #030270, #530572, #7a0657, #260572);
   background-size: 400% 400%;
   -webkit-animation: Gradient 30s ease infinite;
   -moz-animation: Gradient 30s ease infinite;
