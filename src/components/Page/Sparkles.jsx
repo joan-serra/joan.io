@@ -63,7 +63,7 @@ const range = (start, end, step = 1) => {
   return output;
 };
 
-const DEFAULT_COLOR = ' #FFDAAC';
+const DEFAULT_COLOR = '#FFDAAC';
 const generateSparkle = color => {
   const sparkle = {
     id: String(random(10000, 99999)),
