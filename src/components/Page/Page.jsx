@@ -22,7 +22,7 @@ function App() {
           <p class="stufftextsmall">Fancy playing videogames with me?</p>
           <br />
           <a class="stufflink" href="https://steamcommunity.com/id/noopdles/" title="Don't judge me."><FaSteam /> Steam</a>
-          <a class="stufflink" href="https://playoverwatch.com/en-us/career/pc/Noodles-22366/" title="Mostly Overwatch and WoW"><FaBattleNet /> Noodles#22366 (Europe)</a>
+          <a class="stufflink" href="https://playoverwatch.com/en-us/career/pc/Noodles-22366/" title="Mostly Overwatch and WoW"><FaBattleNet /> Noodles#22366</a>
         </div>
       </div>
     </div>
