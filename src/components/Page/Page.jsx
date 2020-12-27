@@ -13,7 +13,7 @@ function App() {
         </div>
         <div class="stuffdiv">
           <a class="stufflink" href="https://twitter.com/noopdles" title="Drama and general unhingement. Please don't judge me."><FaTwitter /> Twitter</a>
-          <a class="stufflink" href="https://twitch.tv/cybernoodles" title="I play videogames. Badly"><FaTwitch /> Twitch</a>
+          <a class="stufflink" href="https://twitch.tv/noopdles" title="I play videogames. Badly"><FaTwitch /> Twitch</a>
           <a class="stufflink" href="https://instagram.com/noopdles" title="Sometimes I may take a photo of something interesting."><FaInstagram /> Instagram</a>
           <a class="stufflink" href="https://linkedin.com/in/joanserramolas" title="seriouscat.jpg"><FaLinkedin /> LinkedIn</a>
           <a class="stufflink" href="https://github.com/joan-serra" title="Code, or attempts at such."><FaGithub /> GitHub</a>
