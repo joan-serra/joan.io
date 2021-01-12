@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 body {
   background: linear-gradient(-45deg, #ffffff, #fff5f5, #ffcefb, #f8ffb0);
   background-size: 400% 400%;
@@ -63,8 +63,10 @@ body {
   border: none;
   text-decoration: none;
   color: inherit;
-  font-size: 4em;
-  font-family: Playfair Display, serif;
+  font-size: 5em;
+  font-weight: 800;
+  font-style: italic;
+  font-family: 'Bodoni Moda', serif;
   -webkit-font-smoothing: antialiased;
 }
 .stufftextsmall {
