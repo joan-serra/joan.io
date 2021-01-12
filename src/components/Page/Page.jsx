@@ -7,7 +7,7 @@ function App() {
     <div class="container">
       <div class="subcontainer">
         <div class="stuffdiv">
-        <p class="stufftext">HELLO, STRANGER</p>
+        <p class="stufftext">HELLO<br />STRANGER</p>
           <p class="stufftextsmall">I am Joan Serra, and this is my sort of website. I am a human being who works in cloud stuff and enjoys many things. If you're curious, why not check any of the following?</p> 
         </div>
         <div class="stuffdiv">
