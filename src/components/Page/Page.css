@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 body {
-  background: linear-gradient(-45deg, #000000, #08002c, #2c0018, #1b1b00);
+  background: linear-gradient(-45deg, #030011, #030011, #000301, #11000d);
   background-size: 400% 400%;
   -webkit-animation: Gradient 30s ease infinite;
   -moz-animation: Gradient 30s ease infinite;
