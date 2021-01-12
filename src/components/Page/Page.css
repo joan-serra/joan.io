@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 body {
-  background: linear-gradient(-45deg, #ffffff, #fff5f5, #ffcefb, #f8ffb0);
+  background: linear-gradient(-45deg, #000000, #181818, #000000, #181818);
   background-size: 400% 400%;
   -webkit-animation: Gradient 30s ease infinite;
   -moz-animation: Gradient 30s ease infinite;
@@ -12,7 +11,7 @@ body {
   position: relative;
   z-index: 4;
   overflow: hidden;
-  color: #fff;
+  color: #000;
 }
 .subcontainer {
   max-width: 50em;
@@ -27,7 +26,7 @@ body {
   text-decoration: none;
   color: inherit;
   font-size: 1em;
-  font-family: Oswald,sans-serif;
+  font-family: 'Xanh Mono',sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 .stufflink {
@@ -38,7 +37,7 @@ body {
   color: inherit;
   font-size: 1.75em;
   font-weight: bold;
-  font-family: Oswald,sans-serif;
+  font-family: 'Xanh Mono',sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 /*
@@ -54,7 +53,7 @@ body {
   margin: 5em auto;
   margin: 2vh auto;
   padding: 0 2.5em;
-  color: #000000;
+  color: #FFFFFF;
   transition: color .5s linear;
 }
 .stufftext {
@@ -75,9 +74,9 @@ body {
   border: none;
   text-decoration: none;
   text-align: justify;
-  color: #000000;
+  color: #FFFFFF;
   font-size: 1.1em;
-  font-family: Raleway,sans-serif;
+  font-family: 'Xanh Mono',sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
