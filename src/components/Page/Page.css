@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,700");
-@import url("https://fonts.googleapis.com/css?family=Heebo:300,700");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
 body {
-  background: linear-gradient(-45deg, #030270, #530572, #3d014d, #260572);
+  background: linear-gradient(-45deg, #ffffff, #fff5f5, #ffcefb, #f8ffb0);
   background-size: 400% 400%;
   -webkit-animation: Gradient 30s ease infinite;
   -moz-animation: Gradient 30s ease infinite;
@@ -16,7 +17,7 @@ body {
 .subcontainer {
   max-width: 50em;
   margin: 5em auto;
-  margin: 10vh auto;
+  margin: 7vh auto;
   padding: 1em 1em;
 }
 .stuffsublink {
@@ -26,7 +27,7 @@ body {
   text-decoration: none;
   color: inherit;
   font-size: 1em;
-  font-family: Montserrat,sans-serif;
+  font-family: Oswald,sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 .stufflink {
@@ -37,7 +38,7 @@ body {
   color: inherit;
   font-size: 2em;
   font-weight: bold;
-  font-family: Heebo,sans-serif;
+  font-family: Oswald,sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 /*
@@ -51,20 +52,19 @@ body {
 .stuffdiv {
   max-width: 40em;
   margin: 5em auto;
-  margin: 5vh auto;
+  margin: 2vh auto;
   padding: 0 2.5em;
-  color: #3BDCCD;
+  color: #000000;
   transition: color .5s linear;
 }
 .stufftext {
-  margin: 0;
+  margin: 0 0 0.75em 0;
   padding: 0;
   border: none;
   text-decoration: none;
   color: inherit;
-  font-size: 3em;
-  font-weight: bolder;
-  font-family: Montserrat,sans-serif;
+  font-size: 5em;
+  font-family: "Playfair Display", serif;
   -webkit-font-smoothing: antialiased;
 }
 .stufftextsmall {
@@ -73,9 +73,9 @@ body {
   border: none;
   text-decoration: none;
   text-align: justify;
-  color: #FFDAAC;
+  color: #000000;
   font-size: 1.25em;
-  font-family: Heebo,sans-serif;
+  font-family: Raleway,sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 

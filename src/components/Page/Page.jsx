@@ -1,6 +1,5 @@
 import React from 'react';
 import './Page.css';
-import Sparkles from './Sparkles';
 import { FaLinkedin, FaTwitter, FaTwitch, FaGithub, FaInstagram, FaSteam, FaBattleNet, FaDiscord } from "react-icons/fa";
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
     <div class="container">
       <div class="subcontainer">
         <div class="stuffdiv">
-        <Sparkles><p class="stufftext">Hello, stranger!</p></Sparkles>
+        <p class="stufftext">HELLO, STRANGER</p>
           <p class="stufftextsmall">I am Joan Serra, and this is my sort of website. I am a human being who works in cloud stuff and enjoys many things. If you're curious, why not check any of the following?</p> 
         </div>
         <div class="stuffdiv">
