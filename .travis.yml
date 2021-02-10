@@ -15,4 +15,4 @@ deploy:
   bucket: joan.io
   on:
     repo: joan-serra/joan.io
-    branch: master
+    branch: main
