@@ -16,7 +16,7 @@ function App() {
           <a class="stufflink" href="https://instagram.com/noopdles" title="Sometimes I may take a photo of something interesting."><FaInstagram /> Instagram</a>
           <a class="stufflink" href="https://letterboxd.com/noopdles" title="I like movies"><FaVideo /> Letterboxd</a>
           <a class="stufflink" href="https://linkedin.com/in/joanserramolas" title="seriouscat.jpg"><FaLinkedin /> LinkedIn</a>
-          <a class="stufflink" href="https://github.com/joan-serra" title="Code, or attempts at such."><FaGithub /> GitHub</a>
+          <a class="stufflink" href="https://github.com/noopdles" title="Code, or attempts at such."><FaGithub /> GitHub</a>
           <span class="stufflink"><FaDiscord /> Noodles#6855</span>
           <br />
           <p class="stufftextsmall">VIDEO GAME PRESENCE</p>
