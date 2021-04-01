@@ -12,3 +12,13 @@ resource "aws_s3_bucket" "joan_io" {
         error_document = "error.html"
     }
 }
+
+resource "aws_s3_bucket" "infrastructure" {
+    bucket = "joan.io-infrastructure"
+    acl = "private"
+
+    tags = {
+        Name = "joan.io terraform state"
+        Environment = "production"
+    }
+}

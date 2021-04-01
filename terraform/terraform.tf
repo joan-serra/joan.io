@@ -5,6 +5,12 @@ terraform {
             version = "~> 3.33"
         }
     }
+
+    backend "s3" {
+        bucket = "joan.io-infrastructure"
+        key = "terraform/production"
+        region = "us-east-1"
+    }
 }
 
 variable "aws_region" {
