@@ -13,6 +13,21 @@ resource "aws_s3_bucket" "joan_io" {
     }
 }
 
+resource "aws_s3_bucket" "joan_io_dev" {
+    bucket = "v.joan.io"
+    acl = "public-read"
+
+    tags = {
+        Name = "joan.io website"
+        Environment = "development"
+    }
+
+    website {
+        index_document = "index.html"
+        error_document = "error.html"
+    }
+}
+
 resource "aws_s3_bucket" "infrastructure" {
     bucket = "joan.io-infrastructure"
     acl = "private"
